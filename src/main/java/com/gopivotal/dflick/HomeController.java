@@ -27,7 +27,7 @@ public class HomeController {
 				
 		model.addAttribute("rossmannService", System.getenv("VCAP_SERVICES"));
 		
-		return "home";
+		return "home"; 
 	}
 	
 }
